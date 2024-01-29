@@ -1,0 +1,38 @@
+********* echo *********
+echo %variable%
+echo text
+
+********* set **********
+set %variable_name%
+not set variable_name
+
+******** outlog ********
+outlog "give an outlog"
+outlog add text "set a new text to outlog"
+
+********** dir *********
+dir "return a dir of path"
+
+******** mkdir *********
+mkdir dir_name
+ if "open(" in sys or ")" in sys or "as" in sys or "," in sys or "\"" in sys:
+            print("ERROR: the file name is incorrect")
+            continue
+
+******** mkfile ********
+mkfile name_file
+mkfile name_file = file_text
+ if "open(" in sys or ")" in sys or "as" in sys or "," in sys or "\"" in sys:
+            print("ERROR: the file name is incorrect")
+            continue
+
+******** python *********
+python name_file
+
+ if "open(" in sys or ")" in sys or "as" in sys or "," in sys or "\"" in sys:
+            print("ERROR: the file name is incorrect")
+            continue
+ runing with antivirus
+
+********* help *********
+help
